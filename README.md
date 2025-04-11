@@ -12,7 +12,7 @@ Your role is to label occurrences of contract-related entities from unstructured
 
 | Entity Label          | Description                                                                 | Examples (German)                                            |
 |-----------------------|-----------------------------------------------------------------------------|---------------------------------------------------------------|
-| `Entity`              | The legal entity (usually a subsidiary or business unit) issuing the contract | E.g., "Eubits GmbH", "Windkraft Nord GmbH"                   |
+| `Entity`              | The legal entity (usually a subsidiary or business unit) issuing the contract | E.g., "Tion Services GmbH", "Windkraft Nord GmbH"                   |
 | `Plant`               | Name of a renewable energy installation (e.g., wind or solar plant)         | E.g., "Windpark Nordsee 3", "Solaranlage Main-Tauber"       |
 | `Counterparty`        | The contract’s opposing party                                               | E.g., "Versicherung AG", "Stadtwerke Bremen"                |
 | `StartDate`           | The contract’s start or effective date                                      | E.g., "01. Januar 2024", "zum 01.01.2024"                    |
@@ -49,10 +49,10 @@ Your role is to label occurrences of contract-related entities from unstructured
 ---
 
 ### Example 2
-> "Die **Eubits GmbH** betreibt die **Solaranlage Main-Tauber**. Die Vertragslaufzeit beträgt **5 Jahre** mit einer **automatischen Verlängerung** um jeweils ein Jahr."
+> "Die **Tion Services GmbH** betreibt die **Solaranlage Main-Tauber**. Die Vertragslaufzeit beträgt **5 Jahre** mit einer **automatischen Verlängerung** um jeweils ein Jahr."
 
 **Labels:**
-- `Entity`: Eubits GmbH  
+- `Entity`: Tion Services GmbH  
 - `Plant`: Solaranlage Main-Tauber  
 - `RenewalType`: automatische Verlängerung
 
