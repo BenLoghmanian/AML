@@ -12,7 +12,7 @@ Ihre Aufgabe ist es, relevante Informationen aus unstrukturiertem Vertragstext g
 
 | Entitätslabel (Deutsch)      | Beschreibung                                                                 | Beispiele |
 |------------------------------|------------------------------------------------------------------------------|-----------|
-| `Gesellschaft`               | Die juristische Person, die Vertragspartei ist (z. B. Tochterunternehmen)   | „Eubits GmbH“, „Windkraft Nord GmbH“ |
+| `Gesellschaft`               | Die juristische Person, die Vertragspartei ist (z. B. Tochterunternehmen)   | „Tion Services GmbH“, „Windkraft Nord GmbH“ |
 | `Anlage`                     | Name oder Bezeichnung einer Energieerzeugungsanlage (z. B. Windpark, PV)    | „Windpark Nordsee 3“, „Solaranlage Main-Tauber“ |
 | `Vertragspartner`            | Gegenpartei des Vertrags                                                     | „Versicherung AG“, „Stadtwerke Bremen“ |
 | `Vertragsbeginn`             | Datum, an dem der Vertrag gültig wird                                       | „01. Januar 2024“, „zum 01.01.2024“ |
@@ -49,10 +49,10 @@ Ihre Aufgabe ist es, relevante Informationen aus unstrukturiertem Vertragstext g
 ---
 
 ### Beispiel 2
-> „Die **Eubits GmbH** betreibt die **Solaranlage Main-Tauber**. Die Vertragslaufzeit beträgt 5 Jahre mit einer **automatischen Verlängerung** um jeweils ein Jahr.“
+> „Die **Tion Services GmbH** betreibt die **Solaranlage Main-Tauber**. Die Vertragslaufzeit beträgt 5 Jahre mit einer **automatischen Verlängerung** um jeweils ein Jahr.“
 
 **Labels:**
-- `Gesellschaft`: Eubits GmbH  
+- `Gesellschaft`: Tion Services GmbH  
 - `Anlage`: Solaranlage Main-Tauber  
 - `Verlängerungsart`: automatische Verlängerung
 
